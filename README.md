@@ -22,14 +22,29 @@ The lab focuses on:
 
 ## Architecture
 
-EC2 Instance 1 (Wazuh Manager - Ubuntu 22.04)
-||
-|| TCP/UDP 1514
-|| TCP 1515
-|| TCP 55000
-||
-/
-EC2 Instance 2 (Wazuh Agent - Ubuntu 22.04)
++--------------------------------------------------+
+|            EC2 Instance 1 (Manager)              |
+|--------------------------------------------------|
+|  Wazuh Manager                                  |
+|  Ubuntu 22.04                                   |
+|  Ports Open:                                    |
+|   - 1514 (TCP/UDP)                              |
+|   - 1515 (TCP)                                  |
+|   - 55000 (TCP)                                 |
+|   - 5601 (Dashboard)                            |
++--------------------------------------------------+
+                        |
+                        |  Agent Communication
+                        |  (1514 / 1515)
+                        v
++--------------------------------------------------+
+|            EC2 Instance 2 (Agent)                |
+|--------------------------------------------------|
+|  Wazuh Agent                                    |
+|  Ubuntu 22.04                                   |
+|  Sends logs to Manager                          |
++--------------------------------------------------+
+
 
 
 Logs Flow:
