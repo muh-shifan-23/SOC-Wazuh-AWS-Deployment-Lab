@@ -127,6 +127,11 @@ sudo systemctl restart ssh
 
 ![Dashboard](screenshots/)
 
+<img width="1916" height="870" alt="wazuh alerts after attack simulation" src="https://github.com/user-attachments/assets/ada8b281-c0ac-42bc-8cf2-df5dce3a889a" />
+<img width="1919" height="916" alt="wazuh dashboard" src="https://github.com/user-attachments/assets/0a58486c-5083-4768-b2e7-645b4dba3370" />
+<img width="1919" height="815" alt="wazuh security events" src="https://github.com/user-attachments/assets/8ea02378-0d35-4c53-bac7-8f8db06f0b03" />
+
+
 ---
 
 ## Alerts & Analysis
@@ -165,6 +170,6 @@ This lab demonstrates practical SOC implementation using Wazuh SIEM:
 
 This project simulates a foundational Tier-1 SOC Analyst workflow in a cloud environment.
 
-<img width="1740" height="686" alt="image" src="https://github.com/user-attachments/assets/6c1b982f-9763-43da-aab1-fa916f18cf8c" />
+
 
 
