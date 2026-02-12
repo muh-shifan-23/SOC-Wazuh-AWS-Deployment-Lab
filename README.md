@@ -165,3 +165,6 @@ This lab demonstrates practical SOC implementation using Wazuh SIEM:
 
 This project simulates a foundational Tier-1 SOC Analyst workflow in a cloud environment.
 
+<img width="1740" height="686" alt="image" src="https://github.com/user-attachments/assets/6c1b982f-9763-43da-aab1-fa916f18cf8c" />
+
+
