@@ -55,6 +55,7 @@ Agent → Manager → Wazuh Dashboard
 2. Installed Wazuh Manager using official installation script:
 
 curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh
+
 sudo bash wazuh-install.sh -a
 
 3. Verified manager services:
