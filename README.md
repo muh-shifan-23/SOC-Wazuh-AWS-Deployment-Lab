@@ -113,6 +113,7 @@ Indicates potential brute-force attack or unauthorized access attempts.
 Performed:
 
 sudo nano /etc/ssh/sshd_config
+
 sudo systemctl restart ssh
 
 **Alert Observed:**  
@@ -124,6 +125,7 @@ sudo systemctl restart ssh
 ## Screenshots (Evidence)
 
 
+![Dashboard](screenshots/)
 
 ---
 
